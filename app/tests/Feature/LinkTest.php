@@ -18,16 +18,15 @@ class LinkTest extends TestCase {
      */
     public function testLogin() {
         $userData = [
-            'email' => 'admin@gmail.com',
+            'email' => 'api@gmail.com',
             'password' => 'emag1234',
         ];
 
-        $x = $this->json('POST', 'api/login', $userData, ['Accept' => 'application/json'])
+        $this->json('POST', 'api/login', $userData, ['Accept' => 'application/json'])
                 ->assertStatus(200)
                 ->assertJsonStructure([
                     "access_token"
         ]);
-//        var_dump($x);
     }
     
     /**

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\User;
 
 class Heatmap extends Seeder {
 
@@ -43,6 +44,14 @@ class Heatmap extends Seeder {
                 'links' => '[{"link":"https:\/\/olx.ro\/"}]'
             ],
         ]);
+
+//        $user_data = [
+//            'name' => 'test',
+//            'email' => 'test@test.com',
+//            'password' => bcrypt('test1234')
+//        ];
+//        $user = User::create($user_data);
+//        $user->createToken('authToken')->accessToken;
     }
 
 }
