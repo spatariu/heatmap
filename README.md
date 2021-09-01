@@ -48,5 +48,7 @@ Heatmap Microservice
 
 - run the tests with `composer test` (only one test was created for demo purposes)
 
+![register](https://user-images.githubusercontent.com/3978400/131665809-e327d36d-18e4-4e16-b518-e1a9b7c202f4.jpg)
 
-*This is just a demo REST API, if it would be deployed to production the security has to be improved (hiding passwords and so on)!*![register](https://user-
+
+*This is just a demo REST API, if it would be deployed to production the security has to be improved (hiding passwords and so on)!*
