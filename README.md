@@ -4,6 +4,7 @@ Heatmap Microservice
 ## Installation:
 - clone the repository and open a terminal for that location
 - install the Docker app
+- copy the `.env_laradock` file to the `laradock folder` as `.env`
 - go to the `laradock` folder and run `docker-compose up -d nginx mysql phpmyadmin workspace`
 - run `docker ps` to check the name of the workspace container and get inside it with `docker exec -it laradock_workspace_1 bash`
 - run `php artisan migrate:fresh --seed` to init the db
